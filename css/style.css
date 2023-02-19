@@ -1,0 +1,79 @@
+:root {
+    --primaryFont: 'Poppins', sans-serif;
+    --secondaryFont: 'Volkhov', serif;
+
+    --primaryO: #FA7436;
+    --paragraph: #666666;
+    --primaryB: #222222;
+    --colorB-1: #444444;
+    --white: #FFFFFF;
+    --white2: #FEFCFB;
+    --whiteGray: #CCCCCC;
+    --yellowOrange: #FD8D3A;
+}
+
+html {
+    width: auto;
+}
+
+/*nav*/
+.navMenu {
+    font-family: var(--primaryFont);
+    color: var(--primaryB);
+    /*VOY EN PONERLE COLOR A LA LETRA*/
+}
+
+.navMenu:visited {
+    color: var(--primaryB);
+}
+
+.user {
+    font-family: var(--primaryFont);
+    color: var(--yellowOrange);
+}
+
+.user:visited {
+    color: var(--yellowOrange);
+}
+/*section*/
+h1, h2 {
+    font-family: var(--secondaryFont);
+}
+
+p {
+    font-family: var(--primaryFont);
+}
+
+.orange {
+    color: var(--primaryO);
+}
+
+.btn1 {
+    background-color: var(--primaryO);
+    color: var(--white);
+    border-radius: 5px;
+    border: none;
+    width: auto;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.btn2 {
+    background-color: var(--white);
+    color: var(--primaryO);
+    border-radius: 5px;
+    border: none;
+    width: 50%;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.btn3 {
+    background-color: var(--white);
+    color: var(--primaryO);
+    border-radius: 5px;
+    border-color: var(--primaryO);
+    width: auto;
+    padding: 10px;
+    font-weight: bold;
+}
