@@ -1,3 +1,4 @@
+/*Global*/
 :root {
     --primaryFont: 'Poppins', sans-serif;
     --secondaryFont: 'Volkhov', serif;
@@ -12,8 +13,62 @@
     --yellowOrange: #FD8D3A;
 }
 
-html {
+/*nav*/
+.nav-link.active {
+    font-family: var(--primaryFont);
+    color: var(--colorB-1);
+}
+
+.btn1 {
+    background-color: var(--primaryO);
+    color: var(--white);
+    border-radius: 5px;
+    border: none;
     width: auto;
+    padding: 0.75rem 3rem;
+    font-weight: bold;
+}
+
+.btn2 {
+    background-color: var(--white);
+    color: var(--primaryO);
+    border-radius: 5px;
+    border: none;
+    width: auto;
+    padding: 0.75rem 3rem;
+    font-weight: bold;
+}
+
+.btn3 {
+    background-color: var(--white);
+    color: var(--primaryO);
+    border-radius: 5px;
+    border-color: var(--primaryO);
+    width: auto;
+    padding: 0.75rem 3rem;
+    font-weight: bold;
+}
+/*section typeB*/
+h1, h2 {
+    font-family: var(--secondaryFont);
+    font-weight: bold;
+    color: var(--primaryB);
+}
+
+span {
+    font-family: var(--secondaryFont);
+    font-weight: bold;
+    color: var(--primaryO);
+}
+
+p {
+    font-family: var(--primaryFont);
+    color: var(--primaryB);
+    /*
+    width: 58%;
+    text-align: center;
+    margin: auto;
+    */
 }
 
 
@@ -26,43 +81,13 @@ html {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*nav*/
+/*
 .navMenu {
     font-family: var(--primaryFont);
     color: var(--primaryO);
-    /*NO AGARRA EL COLOR DE LA LETRA*/
 }
 
-.nav-link.active {
-    color: var(--colorB-1);
-}
+
 
 .nav-link {
     padding: auto;
@@ -80,10 +105,9 @@ html {
 .user:visited {
     color: var(--yellowOrange);
 }
-/*section*/
-h1, h2 {
-    font-family: var(--secondaryFont);
-}
+
+
+
 
 h3 {
     font-family: var(--primaryFont);
@@ -92,43 +116,13 @@ h3 {
 
 }
 
-p {
-    font-family: var(--primaryFont);
-}
+
 
 .orange {
     color: var(--primaryO);
 }
 
-.btn1 {
-    background-color: var(--primaryO);
-    color: var(--white);
-    border-radius: 5px;
-    border: none;
-    width: auto;
-    padding: 10px;
-    font-weight: bold;
-}
 
-.btn2 {
-    background-color: var(--white);
-    color: var(--primaryO);
-    border-radius: 5px;
-    border: none;
-    width: auto;
-    padding: 10px;
-    font-weight: bold;
-}
-
-.btn3 {
-    background-color: var(--white);
-    color: var(--primaryO);
-    border-radius: 5px;
-    border-color: var(--primaryO);
-    width: auto;
-    padding: 10px;
-    font-weight: bold;
-}
 
 .bg-white {
     padding-top: 50px;
@@ -143,3 +137,4 @@ p {
 section {
     padding-bottom: 200px;
 }
+*/
