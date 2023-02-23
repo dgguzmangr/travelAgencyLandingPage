@@ -17,26 +17,31 @@
     <header style="background-color: var(--white2);">
         <head>
             <!--<nav>-->
-            <nav class="navbar navbar-expand-lg container text-center"> <!--style="background-color: var(--white2);"> -->
-                <ul class="navbar-nav container-fluid ">
-                    <div class="logo col navbar-brand text-left">
-                        <img loading="lazy" src="img/Logo.png" class="img-fluid" alt="logoAgency"><!--logo img ESTO YA ESTÁ-->
+            <nav class="container">
+                <!--section typeA (four columns, each colum img[align items center] + <p> under the img[align items left] )-->
+                <section class="row d-flex justify-content-center align-items-center text-center py-3" style="background-color: var(--white);">
+                    <div class="col text-left">
+                        <img loading="lazy" src="img/Logo.png" class="img-fluid" alt="logoAgency">
                     </div>
-                    <div class="navMenu col d-flex flex row text-center font-weight-bold">
-                        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li> <!--vínculo-->
-                        <li class="nav-item"><a class="nav-link active" href="#">About</a></li> <!--vínculo-->
-                        <li class="nav-item"><a class="nav-link active" href="#">Destination</a></li> <!--vínculo-->
-                        <li class="nav-item"><a class="nav-link active" href="#">Tour</a></li> <!--vínculo-->
-                        <li class="nav-item"><a class="nav-link active" href="#">Blog</a></li> <!--vínculo-->
+                    <div class="col text-center">
+                        <div class="d-flex justify-content-between row list-unstyled font-weight-bold"
+                            style="font-family: var(--primaryFont); color: var(--colorB-1);">
+                            <li><a href="#" class="text-decoration-none text-reset">Home</a></li> <!--vínculo-->
+                            <li><a href="#" class="text-decoration-none text-reset">About</a></li> <!--vínculo-->
+                            <li><a href="#" class="text-decoration-none text-reset">Destination</a></li> <!--vínculo-->
+                            <li><a href="#" class="text-decoration-none text-reset">Tour</a></li> <!--vínculo-->
+                            <li><a href="#" class="text-decoration-none text-reset">Blog</a></li> <!--vínculo-->
+                        </div>
                     </div>
-                    <div class="user col d-flex flex row m-0 p-0 ms-auto w-100 justify-content-end">
-                        <button class="btn2 float-right">Login</button>
+                    <div class="col text-right">
                         <button class="btn1 float-right">Sign up</button>
+                        <button class="btn2 float-right">Login</button>
                     </div>
-                </ul>
+                </section>
             </nav>
         </head>
     </header>
+    <!--main-->
     <main class="container">
         <!--section typeB two columns C1[<h2> and <p> align items left] C2[<card<img><p>>]-->
         <section class="row mt-5 w-75 mx-auto">
