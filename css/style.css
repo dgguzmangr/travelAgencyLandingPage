@@ -13,6 +13,10 @@
     --yellowOrange: #FD8D3A;
 }
 
+body{
+    background-color: var(--whiteGray);
+}
+
 /*nav*/
 .nav-link.active {
     font-family: var(--primaryFont);
@@ -53,6 +57,12 @@ h1, h2 {
     font-family: var(--secondaryFont);
     font-weight: bold;
     color: var(--primaryB);
+}
+
+.form-select {
+    border: none;
+    color: var(--primaryO);
+    font-weight: bold;
 }
 
 span {
