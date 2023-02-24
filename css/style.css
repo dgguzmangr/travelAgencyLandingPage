@@ -16,13 +16,7 @@
 body{
     background-color: var(--whiteGray);
 }
-
-/*nav*/
-.nav-link.active {
-    font-family: var(--primaryFont);
-    color: var(--colorB-1);
-}
-
+/*button*/
 .btn1 {
     background-color: var(--primaryO);
     color: var(--white);
@@ -74,9 +68,4 @@ span {
 p {
     font-family: var(--primaryFont);
     color: var(--primaryB);
-    /*
-    width: 58%;
-    text-align: center;
-    margin: auto;
-    */
 }
