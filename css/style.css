@@ -53,12 +53,6 @@ h1, h2 {
     color: var(--primaryB);
 }
 
-.form-select {
-    border: none;
-    color: var(--primaryO);
-    font-weight: bold;
-}
-
 span {
     font-family: var(--secondaryFont);
     font-weight: bold;
